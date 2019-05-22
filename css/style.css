@@ -7,8 +7,7 @@
 /* Testing out colors for the body  */
 body {
     background-color:darkgrey;
-    text-align: center;
-    color:rgb(250, 3, 3);
+    color:rgb(255, 255, 255);
 
     
 
@@ -26,16 +25,26 @@ header {
 /* navigation bar attributes */
 nav {
     position: absolute;
-    left: 400px;
+    top: 70px;
+    left: 1500px;
+    font-size: 25px;
     
 
 }
 
 /* general paragraph attributes */
-p {
+#paragraph1 {
     text-align: center;
-    margin: 100px;
-    
+    margin-top: 200px;
+    margin-left: 495px;
+    margin-right: 510px;
+}
+
+#paragraph2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 495px;
+    margin-right: 510px;
 }
 
 
@@ -47,11 +56,22 @@ p {
 
 
 
+.mainName {
+    
+    left: 100px;
+    background-color: white;
+    color: grey;
+    font-size: 32px;
+    padding: 57px;
+    text-align: 150px;
+    border: rgb(0, 0, 0);
+}
+
 /* attributes for the main picture of me with giraffes */
 #me {
     height:150px;
     width:150px;
-    right:475px;
+    left:400px;
     top:175px;
    
     position: relative; 
