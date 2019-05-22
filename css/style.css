@@ -26,26 +26,12 @@ header {
 nav {
     position: absolute;
     top: 70px;
-    left: 1500px;
+    left: 1430px;
     font-size: 25px;
     
 
 }
 
-/* general paragraph attributes */
-#paragraph1 {
-    text-align: center;
-    margin-top: 200px;
-    margin-left: 495px;
-    margin-right: 510px;
-}
-
-#paragraph2 {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 495px;
-    margin-right: 510px;
-}
 
 
 
@@ -55,6 +41,8 @@ nav {
 
 
 
+
+/* attributes to my name, so it lays on the top left corner on the page */
 
 .mainName {
     
@@ -69,10 +57,34 @@ nav {
 
 /* attributes for the main picture of me with giraffes */
 #me {
-    height:150px;
-    width:150px;
-    left:400px;
-    top:175px;
-   
-    position: relative; 
+    height: 180px;
+    width: 180px;
+    left: 355px;
+    top: 215px;
+    border: solid;
+    border-color: lightblue;
+    position: relative;
+    box-shadow: 8px 7px 5px -3px rgba(0, 0, 0, .8), inset 0 0 50px 10px rgba(0, 0, 0, 1);
+}
+
+
+/* created a box to hold all my content. */
+#contentBox {
+    
+
+}
+
+/* general paragraph attributes */
+#paragraph1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 580px;
+    margin-right: 580px;
+}
+
+#paragraph2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 580px;
+    margin-right: 580px;
 }
