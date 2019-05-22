@@ -1,11 +1,58 @@
+
+/* Font is univerally the same */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* Testing out colors for the body  */
 body {
+    background-color:darkgrey;
     text-align: center;
-    color:red;
-    margin: 300px;
+    color:rgb(250, 3, 3);
+
+    
 
 }
 
+/* positioning the header */
+header {
+    background-color:grey;
+    position: absolute;
+    height:100px;
+    width:100%;
+    
+
+}
+/* navigation bar attributes */
+nav {
+    position: absolute;
+    left: 400px;
+    
+
+}
+
+/* general paragraph attributes */
+p {
+    text-align: center;
+    margin: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* attributes for the main picture of me with giraffes */
 #me {
     height:150px;
     width:150px;
+    right:475px;
+    top:175px;
+   
+    position: relative; 
 }
