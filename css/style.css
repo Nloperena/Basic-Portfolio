@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    color:red;
+    margin: 300px;
+
+}
+
+#me {
+    height:150px;
+    width:150px;
+}
