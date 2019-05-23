@@ -1,14 +1,13 @@
 
-/* Font is univerally the same */
-* {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
 
 /* Testing out colors for the body  */
 body {
     background-color:darkgrey;
     color:rgb(255, 255, 255);
-
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/escheresque/escheresque/escheresque.png);
+    background-size: 4%
+    
     
 
 }
@@ -19,52 +18,70 @@ header {
     position: absolute;
     height:100px;
     width:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
     
 
 }
 /* navigation bar attributes */
 nav {
     position: absolute;
-    top: 70px;
-    left: 1430px;
-    font-size: 25px;
+    top: 40px;
+    left: 1120px;
+    font-size: 20px;
     
 
 }
 
+
+a {
+    text-decoration: none;
+    color:whitesmoke;
+
+}
 
 /* attributes to my name, so it lays on the top left corner on the page */
 
 .mainName {
     
-    left: 100px;
-    background-color: white;
-    color: grey;
-    font-size: 32px;
-    padding: 57px;
-    text-align: 150px;
+    left: 460px;
+    background-color: teal;
+    color: whitesmoke;
+    font-size: 28px;
+    padding: 32px;
     border: rgb(0, 0, 0);
+    position: absolute;
+    width: 21%;
+    height: 34%;
+    box-shadow: 10px 6px 24px -3px rgba(0, 0, 0, .8), inset 0 0 75px -20px rgba(0, 0, 0, 1);
+    text-shadow: 2px 1px 1px #222;
+    border-left-style: solid;
+    border-left-width: .5px;
+    border-right-width: .5px;
+    border-right-style: solid;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 /* attributes for the main picture of me with giraffes. Added a light blue border and a box-shadow for a cool effect*/
 #me {
-    height: 180px;
-    width: 180px;
-    left: 355px;
-    top: 215px;
+    height: 260px;
+    width: 260px;
+    left: 520px;
+    top: 385px;
     border: solid;
-    border-color: lightblue;
+    border-color: teal;
     position: relative;
-    box-shadow: 8px 7px 5px -3px rgba(0, 0, 0, .8), inset 0 0 50px 10px rgba(0, 0, 0, 1);
-    z-index: 1; 
+    box-shadow: 8px 7px 8px -5px rgba(0, 0, 0, .8), inset 0 0 5px -2px rgba(0, 0, 0, 1);
+    z-index: 1;
 }
 
 
 /* created a box to hold all my content. */
 #contentBox {
-    border: dashed;
-    border-color: black;
-    height: 340px;
+    border-color: whitesmoke;
+    height: 525px;
     width: 960px;
     top: 265px;
     background-color: grey;
@@ -72,23 +89,33 @@ nav {
     left: 464px;
     right: 100px;
     position: absolute;
+    border-bottom-style: solid;
+    border-top: solid;
+    border-top-color: teal;
+    border-spacing: 10px;
     z-index: -1;
-
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    box-shadow: 8px 7px 8px -5px rgba(0, 0, 0, .8), inset 0 0 5px -2px rgba(0, 0, 0, 1);
 }
 
 /* general paragraph attributes */
 #p1 {
     text-align: center;
     margin-top: 100px;
-    margin-left: 580px;
-    margin-right: 580px;
+    margin-left: 845px;
+    margin-right: 520px;
     z-index: 1;
+    left: 10px;
+    word-spacing:3px;
 }
 
 #p2 {
     text-align: center;
     margin-top: 30px;
-    margin-left: 580px;
-    margin-right: 580px;
+    margin-left: 843px;
+    margin-right: 526px;
     z-index: 1;
+    word-spacing: 3px;
 }
