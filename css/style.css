@@ -40,6 +40,11 @@ a {
 
 }
 
+p {
+    line-height: 150%;
+
+}
+
 /* attributes to my name, so it lays on the top left corner on the page */
 
 .mainName {
@@ -53,7 +58,7 @@ a {
     position: absolute;
     width: 21%;
     height: 34%;
-    box-shadow: 10px 6px 24px -3px rgba(0, 0, 0, .8), inset 0 0 75px -20px rgba(0, 0, 0, 1);
+    box-shadow: 7px 6px 24px -3px rgba(0, 0, 0, .8), inset 0 0 24px -14px rgba(0, 0, 0, 1);
     text-shadow: 2px 1px 1px #222;
     border-left-style: solid;
     border-left-width: .5px;
@@ -64,10 +69,21 @@ a {
     border-bottom-width: 1px;
 }
 
+
+/* The border underneath about me */
+
+#aboutMeBorder {
+    
+    border-bottom-style:solid;
+    border-color:whitesmoke;
+    width: 930px;
+
+}
+
 /* attributes for the main picture of me with giraffes. Added a light blue border and a box-shadow for a cool effect*/
 #me {
-    height: 260px;
-    width: 260px;
+    height: 215px;
+    width: 215px;
     left: 520px;
     top: 385px;
     border: solid;
@@ -98,23 +114,25 @@ a {
     padding-top: 30px;
     padding-left: 30px;
     box-shadow: 8px 7px 8px -5px rgba(0, 0, 0, .8), inset 0 0 5px -2px rgba(0, 0, 0, 1);
+    
 }
 
 /* general paragraph attributes */
 #p1 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 845px;
     margin-right: 520px;
     z-index: 1;
     left: 10px;
     word-spacing:3px;
+    line-height: 150%;
 }
 
 #p2 {
     text-align: center;
-    margin-top: 30px;
-    margin-left: 843px;
+    margin-top: 65px;
+    margin-left: 495px;
     margin-right: 526px;
     z-index: 1;
     word-spacing: 3px;
