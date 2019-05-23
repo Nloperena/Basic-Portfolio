@@ -33,15 +33,6 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* attributes to my name, so it lays on the top left corner on the page */
 
 .mainName {
@@ -55,7 +46,7 @@ nav {
     border: rgb(0, 0, 0);
 }
 
-/* attributes for the main picture of me with giraffes */
+/* attributes for the main picture of me with giraffes. Added a light blue border and a box-shadow for a cool effect*/
 #me {
     height: 180px;
     width: 180px;
@@ -65,26 +56,39 @@ nav {
     border-color: lightblue;
     position: relative;
     box-shadow: 8px 7px 5px -3px rgba(0, 0, 0, .8), inset 0 0 50px 10px rgba(0, 0, 0, 1);
+    z-index: 1; 
 }
 
 
 /* created a box to hold all my content. */
 #contentBox {
-    
+    border: dashed;
+    border-color: black;
+    height: 340px;
+    width: 960px;
+    top: 265px;
+    background-color: grey;
+    bottom: 100px;
+    left: 464px;
+    right: 100px;
+    position: absolute;
+    z-index: -1;
 
 }
 
 /* general paragraph attributes */
-#paragraph1 {
+#p1 {
     text-align: center;
     margin-top: 100px;
     margin-left: 580px;
     margin-right: 580px;
+    z-index: 1;
 }
 
-#paragraph2 {
+#p2 {
     text-align: center;
     margin-top: 30px;
     margin-left: 580px;
     margin-right: 580px;
+    z-index: 1;
 }
